@@ -1,12 +1,80 @@
 *{
     box-sizing: border-box;
     padding:0;
+    margin:0;
+    
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    height: 900vh;  
+    overflow-x: hidden;
+    font-size: 20px;
 }
-
-.navbut{
+/* це навігаційна плита */
+.icon{
+    color:white;
+    font-weight:600;
+    font-size: 1.5rem;
     text-decoration: none;
+    transition: all 0.8s ease-out;
+}
+.icon:hover{
+    color:rgb(16, 112, 136)
+}
+.buttons{
+    list-style-type: none;
+    padding:10px;
     
 }
+li{
+    display:inline-block;
+}
+li>a{
+    text-decoration: none;
+    color:white;
+    opacity: 0.6;
+    padding:0 10px;
+    transition:all 0.8s ease-out;
+    
+}
+li>a:hover{
+    opacity: 1;
+}
+.container{
+    
+    
+    width:100%;
+    margin:auto;
+    padding:0 10px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    
+
+}
+.navigation{ 
+    width: 100%;
+    background-color: rgb(36, 30, 30);
+    height: 70px;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.navbar_scrolled{
+    position:fixed;
+    animation-name:perehid;
+    animation-duration: 1s;
+}
+
+@keyframes perehid{
+    from{
+       opacity: 0;
+       top:-50px;
+    }
+    to{
+       opacity: 1;
+       top:0;
+    }
+}
+/* Кінець навігаційної плити */

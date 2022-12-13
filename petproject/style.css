@@ -58,7 +58,7 @@ li>a:hover{
     height: 70px;
     display: flex;
     align-items: center;
-   
+    z-index: 100;
     
 }
 .navbar_scrolled{
@@ -78,3 +78,27 @@ li>a:hover{
     }
 }
 /* Кінець навігаційної плити */
+/* Початок першого секшену*/
+.bio{
+    background-color: #cae4e4;
+    max-width: 90%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    margin-inline: auto;
+    padding: 100px 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+.bio p{
+    color: #3b3b3b;
+    font-size: 18px;
+}
+h1{
+    color: #000000;
+    font-size: 50px;
+}
+/* Кінець першого секшену*/

@@ -1,0 +1,20 @@
+const catalog=[
+ {
+    id:'ell1',
+    name:'Bonsiga',
+    img:'img/ell1.jpg',
+    price:'2500',
+ },
+ {
+    id:'ell2',
+    name:'Bonsaiga',
+    img:'img/ell2.jpg',
+    price:'750',
+ },
+ {
+    id:'ell3',
+    name:'Bonsniga',
+    img:'img/ell3.jpg',
+    price:'1200',
+ }
+];

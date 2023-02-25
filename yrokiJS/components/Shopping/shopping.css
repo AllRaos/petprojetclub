@@ -1,0 +1,30 @@
+.table_conteiner{
+    width:97%;
+    height: 97vh;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding:10px;
+    background-color: rgba(185, 175, 175, 0.938);
+    box-shadow: 5px 5px 5px 5px  rgb(70, 66, 66);
+
+}
+.table_img{
+width: 100px;
+padding: 10px;
+}
+.table_price{
+    font-weight: bold;
+}
+.close_but{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    
+   
+}

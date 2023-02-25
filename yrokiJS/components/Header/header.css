@@ -1,0 +1,16 @@
+.head_bar{
+display: flex;
+height:50px;
+background-color: rgb(202, 199, 189);
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+
+justify-content: center;
+    align-items: center;
+}
+.icon{
+    margin-left: auto;
+    padding:10px;
+    cursor: pointer;
+  
+}

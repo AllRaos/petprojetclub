@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Weather app</title>
+</head>
+<body>
+    <header>
+        <h1>Weather</h1>
+    </header>
+    <main>
+        <section class="conteiner">
+            <div class="card">
+                <div class="seach">
+                    <input id="seach__input" type="text" placeholder="Enter city name...">
+                    <button id="seach__button"><img src="/SVG/seach_white.svg" alt="seach" class ="seach__img"></button>
+                </div>
+                <div class="wether">
+                    <div class="wether__icons">
+                        <img src="/SVG/sun.svg" alt="weather-icons" id="icons">
+                        <div class="conteiner-details">
+                            <div class="details">
+                                <div class="details-info">
+                                    <img src="/SVG/humidity.svg" alt="windy" class="wind-icon1">
+                                    <div class="details__info">
+                                        <p class="num-info">50%</p>
+                                        <p class="text-info">Humidity</p>
+                                    </div>
+                                </div>
+                                <div class="details-info">
+                                    <img src="/SVG/windy.svg" alt="windy" class="wind-icon2">
+                                    <div class="details__info">
+                                        <p class="num-info">15 km/h</p>
+                                        <p class="text-info">Wind Speed</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weather__info">
+                        <p class="temp">22°C</p>
+                        <p class="city">London</p>
+                        <p class="inform">It is day very good!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="/JS/weather.js"></script>
+</body>
+</html>

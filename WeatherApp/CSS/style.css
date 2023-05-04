@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 94.6vh;
+    width: 100%;
+    background: rgb(223,255,251);
+    background: linear-gradient(0deg, rgba(223,255,251,1) 0%, rgba(124,184,255,1) 100%);
+}
+h1{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+#seach__button{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#seach__button:hover{
+    transform: scale(1.1);
+}
+.seach__img{
+    width: 50px;
+    height: 50px;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card{
+    width: 100%;
+}
+.seach{
+    display: flex;
+    justify-content: center;
+    margin-block: 70px;
+}
+#seach__input{
+    padding-left: 10px;
+    margin-top: 0.2%;
+    margin-right: 1%;
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+.wether{
+    display: flex;
+    justify-content: center;
+}
+.temp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 100px;
+    margin-top: 20px;
+}
+.city{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+}
+.inform{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.wether__icons{
+    margin-right: 15%;
+    position: relative;
+}
+#icons{
+    width: 250px;
+}
+.conteiner-details{
+    position: absolute;
+    bottom: -1;
+    margin-top: 10%;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.num-info{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.text-info{
+    font-size: 16px
+}
+.wind-icon1, .wind-icon2{
+    width: 50px;
+}
+.details-info{
+    margin-inline: 20px;
+}
+.rain{
+    background: rgb(138,167,150);
+    background: linear-gradient(0deg, rgba(138,167,150,1) 0%, rgba(102,111,108,1) 100%);
+}
+.clouds{
+    background: rgb(163,200,178);
+    background: linear-gradient(0deg, rgba(163,200,178,1) 0%, rgba(129,139,136,1) 100%);
+}
+.even{
+    background: rgb(231,175,123);
+    background: linear-gradient(0deg, rgba(231,175,123,1) 0%, rgba(108,122,138,1) 100%);
+}
+.night{
+    background: rgb(40,67,107);
+    background: linear-gradient(0deg, rgba(40,67,107,1) 0%, rgba(46,51,56,1) 100%);
+    color: white;
+}
+.seach___input__null{
+    border: red solid 4px;
+    color: red;
+}

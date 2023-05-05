@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">ToDo App</h1>
+    </header>
+    <main>
+        <section id="main-section">
+            <article id="main-section__block">
+                <div id="input-block">
+                    <h2 id="input-block__title">My List</h2>
+                    <div id="input-block__enter-box">
+                        <input id="input-block__enter" placeholder="Titile...">
+                        <span id="input-block__accept">Add</span>
+                    </div>
+                </div>
+                <ul id="list">
+                    <li class="list__item">Hit the gym<span class="list__item__close">x</span></li>
+                    <li class="list__item">Buy eggs<span class="list__item__close">x</span></li>
+                    <li class="list__item">Read a book<span class="list__item__close">x</span></li>
+                </ul>
+                <div id="clear-block">
+                    <span id="clear-block__info"><span id="score">0</span>/<span id="score__full">3</span> complete</span><span id="clear-block__clear-btn">Clear complete</span>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

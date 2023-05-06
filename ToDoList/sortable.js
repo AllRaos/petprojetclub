@@ -1,4 +1,4 @@
-const areaDrug = document.getElementById("list");
-new Sortable(areaDrug, {
+const areaDrag = document.getElementById("list");
+new Sortable(areaDrag, {
     animation: 300,
 })
